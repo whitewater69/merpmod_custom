@@ -1,8 +1,0 @@
--T "C:\Users\Simon\Desktop\test2\Merpmod\Debug\Merpmod_Debug_auto.gsi"
--T "C:\Users\Simon\Desktop\test2\Merpmod\Debug\Merpmod_input.tmp" 
--L "c:\program files (x86)\renesas\hew\tools\kpit\gnush-elf\v13.01\sh-elf\lib\gcc\sh-elf\4.7-GNUSH_v13.01\m2e"
--L "C:\Users\Simon\Desktop\test2\Merpmod\Debug"
--Map "C:\Users\Simon\Desktop\test2\Merpmod\Debug\Merpmod.map"
---start-group -l "Merpmod" -l "gcc-Os-4-200" -l "gcc" --end-group
--o "C:\Users\Simon\Desktop\test2\Merpmod\Debug\Merpmod.x"
--e _PowerON_Reset
