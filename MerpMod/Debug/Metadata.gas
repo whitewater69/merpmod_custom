@@ -1,0 +1,4 @@
+"C:\Users\Simon\Desktop\romraider\merpmod\MerpMod\MerpMod\Metadata.s"
+-I "C:\Users\Simon\Desktop\romraider\merpmod\Merpmod"
+--gdwarf2
+-o "C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Metadata.o"

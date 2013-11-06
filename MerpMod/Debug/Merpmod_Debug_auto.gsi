@@ -1,0 +1,107 @@
+OUTPUT_ARCH(sh)
+SECTIONS
+{
+	Zero 0x00000000 : AT (0x00000000)
+	{
+		KEEP(*(.vects))
+	}
+	INTHandler 0x00000100 : AT (0x00000100)
+	{
+	}
+	.text 0x00001000 : AT (0x00001000)
+	{
+		*(.text)
+		*(.text.*)
+		etext = .;
+	}
+	.init :
+	{
+		*(.init)
+	}
+	.fini :
+	{
+		*(.fini)
+	}
+	.got :
+	{
+		*(.got)
+		*(.got.plt)
+	}
+	.rodata :
+	{
+		*(.rodata)
+		*(.rodata.*)
+		_erodata = .;
+	}
+	.eh_frame_hdr :
+	{
+		*(.eh_frame_hdr)
+	}
+	.eh_frame :
+	{
+		*(.eh_frame)
+	}
+	.jcr :
+	{
+		*(.jcr)
+	}
+	.tors :
+	{
+		__CTOR_LIST__ = .;
+		___ctors = .;
+		*(.ctors)
+		___ctors_end = .;
+		__CTOR_END__ = .;
+		__DTOR_LIST__ = .;
+		___dtors = .;
+		*(.dtors)
+		___dtors_end = .;
+		__DTOR_END__ = .;
+		_mdata = .;
+	}
+	RSTHandler 0x00004000 : AT (0x00004000)
+	{
+	}
+	RomHole_Code 0x000E1000 : AT (0x000E1000)
+	{
+	}
+	RomHole_Functions :
+	{
+	}
+	DefinitionData :
+	{
+	}
+	RomHole_CelFlashTables :
+	{
+	}
+	RomHole_EOF :
+	{
+	}
+	Metadata 0x80001000 : AT (0x80001000)
+	{
+	}
+	.data 0xFFFF0000 : AT (_mdata)
+	{
+		_data = .;
+		*(.data)
+		*(.data.*)
+		_edata = .;
+	}
+	.gcc_exc :
+	{
+		*(.gcc_exc)
+	}
+	.bss :
+	{
+		_bss = .;
+		*(.bss)
+		*(.bss.*)
+		*(COMMON)
+		_ebss = .;
+		_end = .;
+	}
+	.stack 0xFFFFBFF0 : AT (0xFFFFBFF0)
+	{
+		_stack = .;
+	}
+}
