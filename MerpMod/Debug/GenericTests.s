@@ -9,7 +9,7 @@
 	.type	_CallMemoryReset, @function
 _CallMemoryReset:
 .LFB0:
-	.file 1 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\GenericTests.c"
+	.file 1 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\GenericTests.c"
 	.loc 1 25 0
 	.cfi_startproc
 	mov.l	r14,@-r15
@@ -154,11 +154,11 @@ _SetValues:
 .LCFI11:
 	.cfi_def_cfa_register 14
 	.loc 1 106 0
-! 106 "C:\Users\Simon\Desktop\romraider\merpmod\MerpMod\MerpMod\GenericTests.c" 1
+! 106 "C:\Users\Simon\Desktop\test2\Merpmod\MerpMod\GenericTests.c" 1
 	nop
 ! 0 "" 2
 	.loc 1 107 0
-! 107 "C:\Users\Simon\Desktop\romraider\merpmod\MerpMod\MerpMod\GenericTests.c" 1
+! 107 "C:\Users\Simon\Desktop\test2\Merpmod\MerpMod\GenericTests.c" 1
 	nop
 ! 0 "" 2
 	.loc 1 140 0
@@ -602,14 +602,14 @@ _SetValues:
 	.string	"func"
 .LASF1:
 	.string	"float"
+.LASF11:
+	.string	"C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\GenericTests.c"
 .LASF10:
 	.string	"GNU C 4.7-GNUSH_v13.01"
 .LASF13:
 	.string	"CelFlashUnitTests"
 .LASF9:
 	.string	"SetValues"
-.LASF11:
-	.string	"C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\GenericTests.c"
 .LASF5:
 	.string	"unsigned char"
 .LASF2:

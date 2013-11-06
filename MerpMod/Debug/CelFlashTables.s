@@ -108,7 +108,7 @@ _EGTResistanceThreshold:
 	.long	1103626240
 	.text
 .Letext0:
-	.file 1 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\CelFlashTables.c"
+	.file 1 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\CelFlashTables.c"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.ualong	0x179
@@ -378,6 +378,8 @@ _EGTResistanceThreshold:
 	.string	"GNU C 4.7-GNUSH_v13.01"
 .LASF13:
 	.string	"IAMFlashes"
+.LASF24:
+	.string	"C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\CelFlashTables.c"
 .LASF8:
 	.string	"FBKCHiFlashes"
 .LASF16:
@@ -394,8 +396,6 @@ _EGTResistanceThreshold:
 	.string	"unsigned char"
 .LASF22:
 	.string	"EGTResistanceThreshold"
-.LASF24:
-	.string	"C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\CelFlashTables.c"
 .LASF2:
 	.string	"long int"
 .LASF12:

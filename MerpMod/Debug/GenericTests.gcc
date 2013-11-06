@@ -4,7 +4,7 @@
 -I "c:\program files (x86)\renesas\hew\tools\kpit\gnush-elf\v13.01\sh-elf\lib\gcc\sh-elf\4.7-GNUSH_v13.01\optlibinc"
 -D DEBUG
 -nostdinc
-"C:\Users\Simon\Desktop\romraider\merpmod\MerpMod\MerpMod\GenericTests.c"
+"C:\Users\Simon\Desktop\test2\Merpmod\MerpMod\GenericTests.c"
 -g
 -g2
--S -o "C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.s"
+-S -o "C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.s"

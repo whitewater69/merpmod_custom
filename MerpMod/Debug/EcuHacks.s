@@ -16,7 +16,7 @@ _ECUHACK_EOF:
 	.type	_EcuHacksMain, @function
 _EcuHacksMain:
 .LFB0:
-	.file 1 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\EcuHacks.c"
+	.file 1 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\EcuHacks.c"
 	.loc 1 60 0
 	.cfi_startproc
 	mov.l	r14,@-r15
@@ -328,7 +328,7 @@ _EcuHacksMainRPM:
 .LASF7:
 	.string	"EcuHacksMainRPM"
 .LASF9:
-	.string	"C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\EcuHacks.c"
+	.string	"C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\EcuHacks.c"
 .LASF10:
 	.string	"ECUHACK_EOF"
 .LASF0:

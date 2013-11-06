@@ -100,7 +100,7 @@
 .LASF1:
 	.string	"float"
 .LASF7:
-	.string	"C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\MapSwitchTables.c"
+	.string	"C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\MapSwitchTables.c"
 .LASF0:
 	.string	"short int"
 .LASF5:

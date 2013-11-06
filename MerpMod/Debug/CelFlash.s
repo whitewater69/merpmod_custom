@@ -16,7 +16,7 @@ _CelTrigger:
 	.type	_CelFlashStart, @function
 _CelFlashStart:
 .LFB0:
-	.file 1 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\CelFlash.c"
+	.file 1 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\CelFlash.c"
 	.loc 1 37 0
 	.cfi_startproc
 	mov.l	r14,@-r15
@@ -422,8 +422,8 @@ _CelFlash:
 	.size	_CelFlash, .-_CelFlash
 	.text
 .Letext0:
-	.file 2 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\RamVariables.h"
-	.file 3 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\Externs.h"
+	.file 2 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\RamVariables.h"
+	.file 3 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\Externs.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.ualong	0x281
@@ -1073,6 +1073,8 @@ _CelFlash:
 	.string	"CruiseCoastLast"
 .LASF18:
 	.string	"CelFlashSpeedCounter"
+.LASF44:
+	.string	"CelFlash"
 .LASF9:
 	.string	"InjectorScaling"
 .LASF1:
@@ -1109,8 +1111,8 @@ _CelFlash:
 	.string	"RamHoleEndMarker"
 .LASF4:
 	.string	"char"
-.LASF44:
-	.string	"CelFlash"
+.LASF41:
+	.string	"C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\CelFlash.c"
 .LASF21:
 	.string	"CelRepeatSwitch"
 .LASF12:
@@ -1133,8 +1135,6 @@ _CelFlash:
 	.string	"RamHoleSpace"
 .LASF20:
 	.string	"CelFlashCounter"
-.LASF41:
-	.string	"C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\CelFlash.c"
 .LASF30:
 	.string	"Delay"
 .LASF38:

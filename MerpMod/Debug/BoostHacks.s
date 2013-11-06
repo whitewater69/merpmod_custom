@@ -16,7 +16,7 @@ _WGDCHooked:
 	.type	_WGDCHack, @function
 _WGDCHack:
 .LFB0:
-	.file 1 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\BoostHacks.c"
+	.file 1 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\BoostHacks.c"
 	.loc 1 23 0
 	.cfi_startproc
 	mov.l	r14,@-r15
@@ -284,7 +284,7 @@ _WGDCHack:
 .LASF1:
 	.string	"float"
 .LASF7:
-	.string	"C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\BoostHacks.c"
+	.string	"C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\BoostHacks.c"
 .LASF0:
 	.string	"short int"
 .LASF5:

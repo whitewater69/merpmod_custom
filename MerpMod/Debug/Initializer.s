@@ -16,7 +16,7 @@ _MemoryResetHooked:
 	.type	_Initializer, @function
 _Initializer:
 .LFB0:
-	.file 1 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\Initializer.c"
+	.file 1 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\Initializer.c"
 	.loc 1 20 0
 	.cfi_startproc
 	mov.l	r14,@-r15
@@ -272,7 +272,7 @@ _PopulateRamVariables:
 	.size	_PopulateRamVariables, .-_PopulateRamVariables
 	.text
 .Letext0:
-	.file 2 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\RamVariables.h"
+	.file 2 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\RamVariables.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.ualong	0x267
@@ -992,8 +992,6 @@ _PopulateRamVariables:
 	.string	"PopulateRamVariables"
 .LASF22:
 	.string	"CelFlashStatus"
-.LASF36:
-	.string	"C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\Initializer.c"
 .LASF0:
 	.string	"short int"
 .LASF28:
@@ -1066,4 +1064,6 @@ _PopulateRamVariables:
 	.string	"CelFlashCounter"
 .LASF38:
 	.string	"ClearRamVariables"
+.LASF36:
+	.string	"C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\Initializer.c"
 	.ident	"GCC: (GNU) 4.7-GNUSH_v13.01"

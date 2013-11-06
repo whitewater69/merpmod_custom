@@ -9,42 +9,42 @@ Linker script and memory map
 
 Zero            0x0000000000000000       0x3c
  *(.vects)
- Zero           0x0000000000000000       0x3c C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
+ Zero           0x0000000000000000       0x3c C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
 
 INTHandler
 
 .text           0x0000000000001000        0x0
  *(.text)
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\SparkHacks.o
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Metadata.o
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\MapSwitchTables.o
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTables.o
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
- .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\SparkHacks.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Metadata.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\MapSwitchTables.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTables.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
+ .text          0x0000000000001000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
  *(.text.*)
                 0x0000000000001000                etext = .
 
 Misc            0x0000000000001000      0x62c
                 0x0000000000001000                PROVIDE (___start_Misc, .)
- Misc           0x0000000000001000      0x148 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
+ Misc           0x0000000000001000      0x148 C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
                 0x0000000000001000                TestFailed
                 0x0000000000001018                Assert
                 0x000000000000106c                DemonstrateAssertionFailure
                 0x0000000000001090                ClearRam
                 0x00000000000010e2                AreCloseEnough
- Misc           0x0000000000001148       0xbc C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
+ Misc           0x0000000000001148       0xbc C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
                 0x0000000000001148                CallMemoryReset
                 0x0000000000001174                GenericTests
                 0x00000000000011a4                BrickBuster
                 0x00000000000011c8                SetValues
- Misc           0x0000000000001204      0x428 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
+ Misc           0x0000000000001204      0x428 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
                 0x0000000000001204                TestCelFlash
                 0x0000000000001254                CelFlashUnitTests
                 0x000000000000162c                PROVIDE (___stop_Misc, .)
@@ -61,8 +61,8 @@ Misc            0x0000000000001000      0x62c
 
 .rodata         0x000000000000162c      0x200
  *(.rodata)
- .rodata        0x000000000000162c       0x28 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
- .rodata        0x0000000000001654      0x1d8 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
+ .rodata        0x000000000000162c       0x28 C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
+ .rodata        0x0000000000001654      0x1d8 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
  *(.rodata.*)
                 0x000000000000182c                _erodata = .
 
@@ -89,44 +89,44 @@ Misc            0x0000000000001000      0x62c
                 0x000000000000182c                _mdata = .
 
 RSTHandler      0x0000000000004000       0x50
- RSTHandler     0x0000000000004000       0x50 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
+ RSTHandler     0x0000000000004000       0x50 C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
 
 .rela.dyn       0x0000000000004050        0x0
  .relaRSTHandler
-                0x0000000000000000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
- .relaMetadata  0x0000000000000000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
- .relaMisc      0x0000000000000000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
+                0x0000000000000000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
+ .relaMetadata  0x0000000000000000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
+ .relaMisc      0x0000000000000000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
  .relaRomHole_Code
-                0x0000000000000000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
+                0x0000000000000000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
 
 RomHole_Code    0x00000000000e1000      0x404
- RomHole_Code   0x00000000000e1000      0x110 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
+ RomHole_Code   0x00000000000e1000      0x110 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
                 0x00000000000e1000                Initializer
                 0x00000000000e1028                ResetRamVariables
                 0x00000000000e1058                InitRamVariables
                 0x00000000000e1098                ClearRamVariables
                 0x00000000000e10fc                PopulateRamVariables
- RomHole_Code   0x00000000000e1110       0x30 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
+ RomHole_Code   0x00000000000e1110       0x30 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
                 0x00000000000e1110                Abs
- RomHole_Code   0x00000000000e1140       0x28 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
+ RomHole_Code   0x00000000000e1140       0x28 C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
                 0x00000000000e1140                EcuHacksMain
                 0x00000000000e115c                EcuHacksMainRPM
- RomHole_Code   0x00000000000e1168      0x274 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
+ RomHole_Code   0x00000000000e1168      0x274 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
                 0x00000000000e1168                CelFlashStart
                 0x00000000000e1228                CelFlash
- RomHole_Code   0x00000000000e13dc       0x28 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+ RomHole_Code   0x00000000000e13dc       0x28 C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
                 0x00000000000e13dc                WGDCHack
 
 RomHole_Functions
                 0x00000000000e1404        0xc
  RomHole_Functions
-                0x00000000000e1404        0x4 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
+                0x00000000000e1404        0x4 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
                 0x00000000000e1404                MemoryResetHooked
  RomHole_Functions
-                0x00000000000e1408        0x4 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
+                0x00000000000e1408        0x4 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
                 0x00000000000e1408                CelTrigger
  RomHole_Functions
-                0x00000000000e140c        0x4 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+                0x00000000000e140c        0x4 C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
                 0x00000000000e140c                WGDCHooked
 
 DefinitionData
@@ -134,7 +134,7 @@ DefinitionData
 RomHole_CelFlashTables
                 0x00000000000e1410       0x44
  RomHole_CelFlashTables
-                0x00000000000e1410       0x44 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTables.o
+                0x00000000000e1410       0x44 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTables.o
                 0x00000000000e1410                FBKCLoFlashSpeed
                 0x00000000000e1414                FBKCLoFlashes
                 0x00000000000e1418                FBKCHiFlashSpeed
@@ -154,28 +154,28 @@ RomHole_CelFlashTables
                 0x00000000000e1450                EGTResistanceThreshold
 
 RomHole_EOF     0x00000000000e1454        0x4
- RomHole_EOF    0x00000000000e1454        0x4 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
+ RomHole_EOF    0x00000000000e1454        0x4 C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
                 0x00000000000e1454                ECUHACK_EOF
 
 Metadata        0x0000000080001000       0x60
- Metadata       0x0000000080001000       0x60 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Metadata.o
+ Metadata       0x0000000080001000       0x60 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Metadata.o
 
 .data           0x00000000ffff0000        0x0 load address 0x000000000000182c
                 0x00000000ffff0000                _data = .
  *(.data)
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\SparkHacks.o
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Metadata.o
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\MapSwitchTables.o
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTables.o
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
- .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\SparkHacks.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Metadata.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\MapSwitchTables.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTables.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
+ .data          0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
  *(.data.*)
                 0x00000000ffff0000                _edata = .
 
@@ -185,19 +185,19 @@ Metadata        0x0000000080001000       0x60
 .bss            0x00000000ffff0000        0x0 load address 0x000000000000182c
                 0x00000000ffff0000                _bss = .
  *(.bss)
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\SparkHacks.o
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Metadata.o
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\MapSwitchTables.o
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTables.o
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
- .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\SparkHacks.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Metadata.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\MapSwitchTables.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTables.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
+ .bss           0x00000000ffff0000        0x0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
  *(.bss.*)
  *(COMMON)
                 0x00000000ffff0000                _ebss = .
@@ -205,187 +205,187 @@ Metadata        0x0000000080001000       0x60
 
 .stack          0x00000000ffffbff0        0x0
                 0x00000000ffffbff0                _stack = .
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\SparkHacks.o
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Metadata.o
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\MapSwitchTables.o
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTables.o
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\SparkHacks.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\Metadata.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\MapSwitchTables.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTables.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
 START GROUP
-LOAD C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\libMerpmod.a
+LOAD C:\Users\Simon\Desktop\test2\Merpmod\Debug\libMerpmod.a
 LOAD c:\program files (x86)\renesas\hew\tools\kpit\gnush-elf\v13.01\sh-elf\lib\gcc\sh-elf\4.7-GNUSH_v13.01\m2e\libgcc-Os-4-200.a
 LOAD c:\program files (x86)\renesas\hew\tools\kpit\gnush-elf\v13.01\sh-elf\lib\gcc\sh-elf\4.7-GNUSH_v13.01\m2e\libgcc.a
 END GROUP
-OUTPUT(C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Merpmod.x elf32-sh)
+OUTPUT(C:\Users\Simon\Desktop\test2\Merpmod\Debug\Merpmod.x elf32-sh)
 
-.debug_info     0x0000000000000000      0xee2
- .debug_info    0x0000000000000000      0x2a5 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
- .debug_info    0x00000000000002a5       0x4b C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\SparkHacks.o
- .debug_info    0x00000000000002f0       0xb2 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
- .debug_info    0x00000000000003a2       0x4b C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\MapSwitchTables.o
- .debug_info    0x00000000000003ed      0x26b C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
- .debug_info    0x0000000000000658       0xdf C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
- .debug_info    0x0000000000000737       0x80 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
- .debug_info    0x00000000000007b7       0x98 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
- .debug_info    0x000000000000084f      0x201 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
- .debug_info    0x0000000000000a50      0x17d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTables.o
- .debug_info    0x0000000000000bcd      0x285 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
- .debug_info    0x0000000000000e52       0x90 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+.debug_info     0x0000000000000000      0xeca
+ .debug_info    0x0000000000000000      0x2a5 C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
+ .debug_info    0x00000000000002a5       0x4b C:\Users\Simon\Desktop\test2\Merpmod\Debug\SparkHacks.o
+ .debug_info    0x00000000000002f0       0x9a C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
+ .debug_info    0x000000000000038a       0x4b C:\Users\Simon\Desktop\test2\Merpmod\Debug\MapSwitchTables.o
+ .debug_info    0x00000000000003d5      0x26b C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
+ .debug_info    0x0000000000000640       0xdf C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
+ .debug_info    0x000000000000071f       0x80 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
+ .debug_info    0x000000000000079f       0x98 C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
+ .debug_info    0x0000000000000837      0x201 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
+ .debug_info    0x0000000000000a38      0x17d C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTables.o
+ .debug_info    0x0000000000000bb5      0x285 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
+ .debug_info    0x0000000000000e3a       0x90 C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
 
 .debug_abbrev   0x0000000000000000      0x5d6
- .debug_abbrev  0x0000000000000000      0x10e C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
- .debug_abbrev  0x000000000000010e       0x24 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\SparkHacks.o
- .debug_abbrev  0x0000000000000132       0x14 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
- .debug_abbrev  0x0000000000000146       0x24 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\MapSwitchTables.o
- .debug_abbrev  0x000000000000016a       0xec C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
- .debug_abbrev  0x0000000000000256       0xa3 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
- .debug_abbrev  0x00000000000002f9       0x53 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
- .debug_abbrev  0x000000000000034c       0x6e C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
- .debug_abbrev  0x00000000000003ba       0xb2 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
- .debug_abbrev  0x000000000000046c       0x35 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTables.o
- .debug_abbrev  0x00000000000004a1       0xcb C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
- .debug_abbrev  0x000000000000056c       0x6a C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+ .debug_abbrev  0x0000000000000000      0x10e C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
+ .debug_abbrev  0x000000000000010e       0x24 C:\Users\Simon\Desktop\test2\Merpmod\Debug\SparkHacks.o
+ .debug_abbrev  0x0000000000000132       0x14 C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
+ .debug_abbrev  0x0000000000000146       0x24 C:\Users\Simon\Desktop\test2\Merpmod\Debug\MapSwitchTables.o
+ .debug_abbrev  0x000000000000016a       0xec C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
+ .debug_abbrev  0x0000000000000256       0xa3 C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
+ .debug_abbrev  0x00000000000002f9       0x53 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
+ .debug_abbrev  0x000000000000034c       0x6e C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
+ .debug_abbrev  0x00000000000003ba       0xb2 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
+ .debug_abbrev  0x000000000000046c       0x35 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTables.o
+ .debug_abbrev  0x00000000000004a1       0xcb C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
+ .debug_abbrev  0x000000000000056c       0x6a C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
 
 .debug_loc      0x0000000000000000      0x4d0
- .debug_loc     0x0000000000000000      0x124 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
- .debug_loc     0x0000000000000124      0x10c C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
- .debug_loc     0x0000000000000230       0xe0 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
- .debug_loc     0x0000000000000310       0x38 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
- .debug_loc     0x0000000000000348       0x64 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
- .debug_loc     0x00000000000003ac       0x7c C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
- .debug_loc     0x0000000000000428       0x70 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
- .debug_loc     0x0000000000000498       0x38 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+ .debug_loc     0x0000000000000000      0x124 C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
+ .debug_loc     0x0000000000000124      0x10c C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
+ .debug_loc     0x0000000000000230       0xe0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
+ .debug_loc     0x0000000000000310       0x38 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
+ .debug_loc     0x0000000000000348       0x64 C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
+ .debug_loc     0x00000000000003ac       0x7c C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
+ .debug_loc     0x0000000000000428       0x70 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
+ .debug_loc     0x0000000000000498       0x38 C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
 
 .debug_aranges  0x0000000000000000      0x1d8
  .debug_aranges
-                0x0000000000000000       0x40 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
+                0x0000000000000000       0x40 C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
  .debug_aranges
-                0x0000000000000040       0x18 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\SparkHacks.o
+                0x0000000000000040       0x18 C:\Users\Simon\Desktop\test2\Merpmod\Debug\SparkHacks.o
  .debug_aranges
-                0x0000000000000058       0x20 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
+                0x0000000000000058       0x20 C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
  .debug_aranges
-                0x0000000000000078       0x18 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\MapSwitchTables.o
+                0x0000000000000078       0x18 C:\Users\Simon\Desktop\test2\Merpmod\Debug\MapSwitchTables.o
  .debug_aranges
-                0x0000000000000090       0x40 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
+                0x0000000000000090       0x40 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
  .debug_aranges
-                0x00000000000000d0       0x38 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
+                0x00000000000000d0       0x38 C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
  .debug_aranges
-                0x0000000000000108       0x20 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
+                0x0000000000000108       0x20 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
  .debug_aranges
-                0x0000000000000128       0x28 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
+                0x0000000000000128       0x28 C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
  .debug_aranges
-                0x0000000000000150       0x28 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
+                0x0000000000000150       0x28 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
  .debug_aranges
-                0x0000000000000178       0x18 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTables.o
+                0x0000000000000178       0x18 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTables.o
  .debug_aranges
-                0x0000000000000190       0x28 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
+                0x0000000000000190       0x28 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
  .debug_aranges
-                0x00000000000001b8       0x20 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+                0x00000000000001b8       0x20 C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
 
 .debug_ranges   0x0000000000000000       0xf0
- .debug_ranges  0x0000000000000000       0x30 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
- .debug_ranges  0x0000000000000030       0x30 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
- .debug_ranges  0x0000000000000060       0x28 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
- .debug_ranges  0x0000000000000088       0x10 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
- .debug_ranges  0x0000000000000098       0x18 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
- .debug_ranges  0x00000000000000b0       0x18 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
- .debug_ranges  0x00000000000000c8       0x18 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
- .debug_ranges  0x00000000000000e0       0x10 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+ .debug_ranges  0x0000000000000000       0x30 C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
+ .debug_ranges  0x0000000000000030       0x30 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
+ .debug_ranges  0x0000000000000060       0x28 C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
+ .debug_ranges  0x0000000000000088       0x10 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
+ .debug_ranges  0x0000000000000098       0x18 C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
+ .debug_ranges  0x00000000000000b0       0x18 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
+ .debug_ranges  0x00000000000000c8       0x18 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
+ .debug_ranges  0x00000000000000e0       0x10 C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
 
-.debug_line     0x0000000000000000      0x646
- .debug_line    0x0000000000000000       0xb2 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
- .debug_line    0x00000000000000b2       0x1d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\SparkHacks.o
- .debug_line    0x00000000000000cf       0x94 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o
- .debug_line    0x0000000000000163       0x1d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\MapSwitchTables.o
- .debug_line    0x0000000000000180       0xa6 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
- .debug_line    0x0000000000000226       0x92 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
- .debug_line    0x00000000000002b8       0x78 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
- .debug_line    0x0000000000000330       0x79 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
- .debug_line    0x00000000000003a9       0xec C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
- .debug_line    0x0000000000000495       0x6a C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTables.o
- .debug_line    0x00000000000004ff       0xcd C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
- .debug_line    0x00000000000005cc       0x7a C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+.debug_line     0x0000000000000000      0x5ce
+ .debug_line    0x0000000000000000       0xa6 C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
+ .debug_line    0x00000000000000a6       0x1d C:\Users\Simon\Desktop\test2\Merpmod\Debug\SparkHacks.o
+ .debug_line    0x00000000000000c3       0x88 C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o
+ .debug_line    0x000000000000014b       0x1d C:\Users\Simon\Desktop\test2\Merpmod\Debug\MapSwitchTables.o
+ .debug_line    0x0000000000000168       0x9a C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
+ .debug_line    0x0000000000000202       0x86 C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
+ .debug_line    0x0000000000000288       0x6c C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
+ .debug_line    0x00000000000002f4       0x6d C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
+ .debug_line    0x0000000000000361       0xe0 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
+ .debug_line    0x0000000000000441       0x5e C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTables.o
+ .debug_line    0x000000000000049f       0xc1 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
+ .debug_line    0x0000000000000560       0x6e C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
 
-.debug_str      0x0000000000000000      0x744
- .debug_str     0x0000000000000000      0x232 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
-                                        0x244 (size before relaxing)
- .debug_str     0x0000000000000232       0x46 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\SparkHacks.o
-                                         0x92 (size before relaxing)
- .debug_str     0x0000000000000278       0x4b C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\MapSwitchTables.o
-                                         0x97 (size before relaxing)
- .debug_str     0x00000000000002c3       0xc1 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
-                                        0x248 (size before relaxing)
- .debug_str     0x0000000000000384       0x92 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
-                                         0xde (size before relaxing)
- .debug_str     0x0000000000000416       0x4b C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
-                                         0x97 (size before relaxing)
- .debug_str     0x0000000000000461       0x6d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
-                                         0xb9 (size before relaxing)
- .debug_str     0x00000000000004ce       0x7f C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
-                                        0x218 (size before relaxing)
- .debug_str     0x000000000000054d      0x12b C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTables.o
-                                        0x1a0 (size before relaxing)
- .debug_str     0x0000000000000678       0x72 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
-                                        0x27e (size before relaxing)
- .debug_str     0x00000000000006ea       0x5a C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
-                                         0xa6 (size before relaxing)
+.debug_str      0x0000000000000000      0x6c0
+ .debug_str     0x0000000000000000      0x226 C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
+                                        0x238 (size before relaxing)
+ .debug_str     0x0000000000000226       0x3a C:\Users\Simon\Desktop\test2\Merpmod\Debug\SparkHacks.o
+                                         0x86 (size before relaxing)
+ .debug_str     0x0000000000000260       0x3f C:\Users\Simon\Desktop\test2\Merpmod\Debug\MapSwitchTables.o
+                                         0x8b (size before relaxing)
+ .debug_str     0x000000000000029f       0xb5 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
+                                        0x23c (size before relaxing)
+ .debug_str     0x0000000000000354       0x86 C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
+                                         0xd2 (size before relaxing)
+ .debug_str     0x00000000000003da       0x3f C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
+                                         0x8b (size before relaxing)
+ .debug_str     0x0000000000000419       0x61 C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
+                                         0xad (size before relaxing)
+ .debug_str     0x000000000000047a       0x73 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
+                                        0x20c (size before relaxing)
+ .debug_str     0x00000000000004ed      0x11f C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTables.o
+                                        0x194 (size before relaxing)
+ .debug_str     0x000000000000060c       0x66 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
+                                        0x272 (size before relaxing)
+ .debug_str     0x0000000000000672       0x4e C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
+                                         0x9a (size before relaxing)
 
 .comment        0x0000000000000000       0x1c
- .comment       0x0000000000000000       0x1c C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
+ .comment       0x0000000000000000       0x1c C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
                                          0x1d (size before relaxing)
- .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\SparkHacks.o
- .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\MapSwitchTables.o
- .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
- .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
- .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
- .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
- .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
- .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTables.o
- .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
- .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+ .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\test2\Merpmod\Debug\SparkHacks.o
+ .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\test2\Merpmod\Debug\MapSwitchTables.o
+ .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
+ .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
+ .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
+ .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
+ .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
+ .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTables.o
+ .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
+ .comment       0x0000000000000000       0x1d C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
 
 .debug_frame    0x0000000000000000      0x310
- .debug_frame   0x0000000000000000       0xa4 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o
- .debug_frame   0x00000000000000a4       0xa4 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o
- .debug_frame   0x0000000000000148       0x88 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o
- .debug_frame   0x00000000000001d0       0x2c C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o
- .debug_frame   0x00000000000001fc       0x48 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o
- .debug_frame   0x0000000000000244       0x50 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o
- .debug_frame   0x0000000000000294       0x4c C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o
- .debug_frame   0x00000000000002e0       0x30 C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o
+ .debug_frame   0x0000000000000000       0xa4 C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o
+ .debug_frame   0x00000000000000a4       0xa4 C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o
+ .debug_frame   0x0000000000000148       0x88 C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o
+ .debug_frame   0x00000000000001d0       0x2c C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o
+ .debug_frame   0x00000000000001fc       0x48 C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o
+ .debug_frame   0x0000000000000244       0x50 C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o
+ .debug_frame   0x0000000000000294       0x4c C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o
+ .debug_frame   0x00000000000002e0       0x30 C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o
 
 
 ==============================================================
 
-Listfile generated by KPIT GNUSH [ELF]-v13.01 on Monday, November 04, 2013, 20:50:42
+Listfile generated by KPIT GNUSH [ELF]-v13.01 on Tuesday, November 05, 2013, 21:30:05
 
 Build options:
 
--T "C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Merpmod_Debug_auto.gsi"
--T "C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Merpmod_input.tmp" 
+-T "C:\Users\Simon\Desktop\test2\Merpmod\Debug\Merpmod_Debug_auto.gsi"
+-T "C:\Users\Simon\Desktop\test2\Merpmod\Debug\Merpmod_input.tmp" 
 -L "c:\program files (x86)\renesas\hew\tools\kpit\gnush-elf\v13.01\sh-elf\lib\gcc\sh-elf\4.7-GNUSH_v13.01\m2e"
--L "C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug"
--Map "C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Merpmod.map"
+-L "C:\Users\Simon\Desktop\test2\Merpmod\Debug"
+-Map "C:\Users\Simon\Desktop\test2\Merpmod\Debug\Merpmod.map"
 --start-group -l "Merpmod" -l "gcc-Os-4-200" -l "gcc" --end-group
--o "C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Merpmod.x"
+-o "C:\Users\Simon\Desktop\test2\Merpmod\Debug\Merpmod.x"
 -e _PowerON_Reset
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\TestUtilities.o")
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\SparkHacks.o")
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\ResetHandler.o")
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Metadata.o")
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\MapSwitchTables.o")
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Initializer.o")
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\GenericTests.o")
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\Functions.o")
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\EcuHacks.o")
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTests.o")
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlashTables.o")
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\CelFlash.o")
-INPUT("C:\Users\Simon\Desktop\romraider\merpmod\Merpmod\Debug\BoostHacks.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\TestUtilities.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\SparkHacks.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\ResetHandler.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\Metadata.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\MapSwitchTables.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\Initializer.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\GenericTests.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\Functions.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\EcuHacks.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTests.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlashTables.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\CelFlash.o")
+INPUT("C:\Users\Simon\Desktop\test2\Merpmod\Debug\BoostHacks.o")

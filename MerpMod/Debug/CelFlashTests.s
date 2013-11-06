@@ -9,7 +9,7 @@
 	.type	_TestCelFlash, @function
 _TestCelFlash:
 .LFB0:
-	.file 1 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\CelFlashTests.c"
+	.file 1 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\CelFlashTests.c"
 	.loc 1 23 0
 	.cfi_startproc
 	mov.l	r14,@-r15
@@ -685,8 +685,8 @@ _CelFlashUnitTests:
 	.size	_CelFlashUnitTests, .-_CelFlashUnitTests
 	.text
 .Letext0:
-	.file 2 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\RamVariables.h"
-	.file 3 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\Externs.h"
+	.file 2 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\RamVariables.h"
+	.file 3 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\Externs.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.ualong	0x1fd
@@ -1244,10 +1244,8 @@ _CelFlashUnitTests:
 	.string	"TestCelFlash"
 .LASF18:
 	.string	"CelFlashSpeedCounter"
-.LASF9:
-	.string	"InjectorScaling"
 .LASF31:
-	.string	"C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\CelFlashTests.c"
+	.string	"C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\CelFlashTests.c"
 .LASF29:
 	.string	"EGTResistanceThreshold"
 .LASF1:
@@ -1264,6 +1262,8 @@ _CelFlashUnitTests:
 	.string	"CelFlashDelay"
 .LASF27:
 	.string	"unsigned char"
+.LASF9:
+	.string	"InjectorScaling"
 .LASF30:
 	.string	"GNU C 4.7-GNUSH_v13.01"
 .LASF24:

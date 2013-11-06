@@ -9,7 +9,7 @@
 	.type	_TestFailed, @function
 _TestFailed:
 .LFB0:
-	.file 1 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\TestUtilities.c"
+	.file 1 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\TestUtilities.c"
 	.loc 1 19 0
 	.cfi_startproc
 	mov.l	r14,@-r15
@@ -26,7 +26,7 @@ _TestFailed:
 	add	#-60,r1
 	mov.l	r4,@(60,r1)
 	.loc 1 21 0
-! 21 "C:\Users\Simon\Desktop\romraider\merpmod\MerpMod\MerpMod\TestUtilities.c" 1
+! 21 "C:\Users\Simon\Desktop\test2\Merpmod\MerpMod\TestUtilities.c" 1
 	nop
 ! 0 "" 2
 	.loc 1 22 0
@@ -311,7 +311,7 @@ _AreCloseEnough:
 	.size	_AreCloseEnough, .-_AreCloseEnough
 	.text
 .Letext0:
-	.file 2 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\RamVariables.h"
+	.file 2 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\RamVariables.h"
 	.section	.debug_info,"",@progbits
 .Ldebug_info0:
 	.ualong	0x2a1
@@ -1098,6 +1098,8 @@ _AreCloseEnough:
 	.section	.debug_line,"",@progbits
 .Ldebug_line0:
 	.section	.debug_str,"MS",@progbits,1
+.LASF1:
+	.string	"float"
 .LASF22:
 	.string	"CelFlashStatus"
 .LASF0:
@@ -1124,10 +1126,8 @@ _AreCloseEnough:
 	.string	"CelFlashSpeedCounter"
 .LASF9:
 	.string	"InjectorScaling"
-.LASF1:
-	.string	"float"
 .LASF38:
-	.string	"C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\TestUtilities.c"
+	.string	"C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\TestUtilities.c"
 .LASF5:
 	.string	"MasterInitFlag"
 .LASF2:

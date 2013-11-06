@@ -9,7 +9,7 @@
 	.type	_Abs, @function
 _Abs:
 .LFB0:
-	.file 1 "C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\Functions.c"
+	.file 1 "C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\Functions.c"
 	.loc 1 18 0
 	.cfi_startproc
 	mov.l	r14,@-r15
@@ -253,8 +253,6 @@ _Abs:
 	.string	"GNU C 4.7-GNUSH_v13.01"
 .LASF1:
 	.string	"float"
-.LASF7:
-	.string	"C:\\Users\\Simon\\Desktop\\romraider\\merpmod\\MerpMod\\MerpMod\\Functions.c"
 .LASF0:
 	.string	"short int"
 .LASF3:
@@ -265,6 +263,8 @@ _Abs:
 	.string	"long int"
 .LASF8:
 	.string	"input"
+.LASF7:
+	.string	"C:\\Users\\Simon\\Desktop\\test2\\Merpmod\\MerpMod\\Functions.c"
 .LASF4:
 	.string	"char"
 	.ident	"GCC: (GNU) 4.7-GNUSH_v13.01"
